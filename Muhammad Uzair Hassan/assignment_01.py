@@ -67,11 +67,9 @@ print("--- Task 4: Marks & Percentage ---")
 english = 85
 islamiat = 90
 maths = 95
-
 total_marks = 300
 obtained_marks = english + islamiat + maths
 percentage = (obtained_marks / total_marks) * 100
-
 print(f"Total Marks: {total_marks}")
 print(f"Obtained Marks: {obtained_marks}")
 print(f"Percentage: {percentage:.2f}%\n")
@@ -82,9 +80,7 @@ print("--- Task 5: Swapping Variables ---")
 x = 15
 y = 30
 print(f"Before swap: x = {x}, y = {y}")
-
 x, y = y, x
-
 print(f"After swap:  x = {x}, y = {y}\n")
 
 
@@ -92,10 +88,8 @@ print(f"After swap:  x = {x}, y = {y}\n")
 print("--- Task 6: Circle Calculations ---")
 pi = 3.14159
 radius = 7.0
-
 area = pi * (radius ** 2)
 circumference = 2 * pi * radius
-
 print(f"Radius: {radius}")
 print(f"Area: {area:.4f}")
 print(f"Circumference: {circumference:.4f}\n")
@@ -105,10 +99,8 @@ print(f"Circumference: {circumference:.4f}\n")
 print("--- Task 7: Discount Calculation ---")
 price = 2500.0
 discount_percentage = 15.0
-
 discount_amount = (discount_percentage / 100) * price
 final_price = price - discount_amount
-
 print(f"Original Price: Rs. {price:.2f}")
 print(f"Discount: {discount_percentage}%")
 print(f"Discount Amount: Rs. {discount_amount:.2f}")
